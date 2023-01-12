@@ -1,0 +1,206 @@
+header {
+    background-color: black;
+}
+
+header .logo-alura {
+    background-color: black;
+}
+
+.titulo {
+    transition: all 0.3s ease-in-out;
+}
+
+.titulo:hover {
+    color: white;
+}
+
+.conversor-texto {
+    gap: 10px;
+}
+
+/* ENTRADA */
+.contenedor-input {
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+.contenedor-input textarea {
+    width: 80%;
+    height: 75%;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    background-color: #efefef;
+    text-shadow: 1px 0 brown;
+}
+
+.contenedor-botones {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contenedor-botones input {
+    border-radius: 10px;
+    border: 1px solid white;
+    color: white;
+    background-color: black;
+    font-size: 1.5rem;
+    padding: 3px 10px;
+    transition: all 0.2s ease;
+}
+
+.contenedor-botones input:hover {
+    background-color: rgb(139, 127, 127);
+    color: white;
+    box-shadow: 2px 2px 5px white;
+    border: 1px solid black;
+}
+
+
+/* SALIDA */
+
+.contenedor-output {
+    height: 278px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+.contenedor-output figure {
+    background-color: white;
+}
+
+.contenedor-output figure img {
+    width: 24rem;
+    max-width: 350px;
+    margin: 3px;
+}
+
+.contenedor-output textarea {
+    width: 80%;
+    height: 75%;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1.5rem;
+    background-color: #efefef;
+    text-shadow: 1px 0 brown;
+}
+
+.contenedor-input textarea::placeholder {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.contenedor-output input {
+    border-radius: 10px;
+    border: 1px solid white;
+    color: white;
+    background-color: black;
+    font-size: 1.5rem;
+    padding: 3px 10px;
+    transition: all 0.2s ease;
+}
+
+.contenedor-output input:hover {
+    background-color: rgb(139, 127, 127);
+    color: white;
+    box-shadow: 2px 2px 5px white;
+    border: 1px solid black;
+}
+
+/* FOOTER  */
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenido-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.contenido-footer p,
+.contenido-footer i {
+    font-size: 1.5rem;
+    margin-left: 5px;
+    color: white;
+}
+
+.ubicacion p {
+    margin-bottom: 0;
+}
+
+.ubicacion p:hover {
+    color: #0a58ca;
+}
+
+
+.telefono p:hover {
+    color: #0a58ca;
+}
+
+.copi p {
+    font-size: 1rem;
+}
+
+.ubicacion,
+.telefono,
+.copy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenido-footer a {
+    text-decoration: none;
+}
+
+/* MOSTRAR */
+.hide {
+    display: none;
+}
+
+/* OCULTAR */
+.show {
+    display: block;
+}
+
+
+
+
+@media screen and (max-width: 775px) {
+    .contenedor-input textarea::placeholder {
+        font-size: 1.1rem;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    
+    .contenedor-input textarea::placeholder {
+        font-size: 1rem;
+    }
+
+    .contenedor-input {
+        height: 380px;
+        padding: 5px;
+    }
+
+    .contenedor-botones {
+        flex-direction: column;
+        gap: 10px;
+        margin: 5px;
+    }
+
+}
