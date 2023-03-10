@@ -36,6 +36,9 @@ _Un botón que copie texto encriptado/desencriptado para la sección de transfer
 ## Despliegue 📦
 
 _En el deploy debería verse así visto desde una ventana de notebook_
+<p align="center">
+  <img src="https://res.cloudinary.com/dbaqfw9vn/image/upload/v1678474165/Encriptador%20de%20Texto%20-%20Challenge%20Alura%20ONE/Screenshot_exrp4z.png"/>
+ </p>
 
 
 ## Construido con 🛠️
@@ -44,13 +47,16 @@ _En el deploy debería verse así visto desde una ventana de notebook_
 * CSS
 * JavaScript
 
-## Contribuyendo 🖇️
+ ### Video del proyecto 📋
+ [Encriptador_de_texto___Challenge_m57r7h.webm](https://user-images.githubusercontent.com/110341896/224402483-ae4edfde-476c-4d6e-b89c-d56eb1797275.webm)
 
-Por favor lee el [CONTRIBUTING.md](https://gist.github.com/villanuevand/xxxxxx) para detalles de nuestro código de conducta, y el proceso para enviarnos pull requests.
+ 
+ ### Insignia del Proyecto 📋
+ _Insignia recibida por haber finalizado el Challenge propuesto._
 
-## Wiki 📖
-
-Puedes encontrar mucho más de cómo utilizar este proyecto en nuestra [Wiki](https://github.com/tu/proyecto/wiki)
+<p align="center">
+  <img src="https://res.cloudinary.com/dbaqfw9vn/image/upload/v1678473945/Encriptador%20de%20Texto%20-%20Challenge%20Alura%20ONE/Insignia_Challenge_One_-_Encriptador_iu9f3s.png"/>
+ </p>
 
 ## Autor ✒️
 
@@ -58,7 +64,7 @@ Puedes encontrar mucho más de cómo utilizar este proyecto en nuestra [Wiki](ht
 
 ## Expresiones de Gratitud 🎁
 
-* Da las gracias públicamente 🤓.
+* Agradezdo muchísimo a Alura ONE y a [christianpva](https://github.com/christianpva)🤓.
 
 ---
 ⌨️ con ❤️ por [martinsuarez14](https://github.com/martinsuarez14) 😊
