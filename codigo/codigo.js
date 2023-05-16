@@ -48,7 +48,6 @@ function decodificar(mensaje) {
 }
 
 function copiar() {
-    // var copiado = document.getElementById('resultado');
     salida.select();
     document.execCommand('copy');
     mensaje.value = "";
